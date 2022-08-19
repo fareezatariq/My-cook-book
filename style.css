@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: rgb(193, 228, 161);
+}
+.header{
+    background-color: rgb(35, 153, 51);
+    color:rgb(219, 193, 168);
+    display: flex;
+    align-items: center;
+    font-size: large;
+    height:auto;
+    padding: 5px;
+    justify-content: left;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.logo{
+height: 10%;
+width: 10%;
+}

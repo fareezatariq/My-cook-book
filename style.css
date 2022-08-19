@@ -12,6 +12,11 @@ body{
     padding: 5px;
     justify-content: left;
 }
+a{
+    text-decoration: none;
+    color: beige;
+
+}
 ul{
     list-style: none;
     display: flex;

@@ -1,6 +1,11 @@
 body{
     margin: 0;
     background-color: rgb(193, 228, 161);
+    background-image: url("./images/Bb.jpg");
+    background-size: cover;
+    width:100%;
+    height: fit-content;
+
 }
 .header{
     background-color: rgb(35, 153, 51);
@@ -8,19 +13,23 @@ body{
     display: flex;
     align-items: center;
     font-size: large;
-    height:auto;
     padding: 5px;
-    justify-content: left;
+    justify-content: space-between;
 }
+
 a{
     text-decoration: none;
     color: beige;
-
 }
+.left, .right {
+    display: flex;
+  }
+
 ul{
     list-style: none;
     display: flex;
     gap: 15px;
+    margin-right: 15px;
 }
 .logo{
 height: 10%;

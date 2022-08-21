@@ -75,12 +75,23 @@ width: 10%;
   height:auto;
   margin: auto;
   margin-top: 30px;
-  display: flex;
   margin-bottom: 0;
 }
-.container div{
+
+.container{
     display: flex;
     gap: 30px;
-    border: 2px solid #094416;
+    justify-content: space-between;
     flex-direction: column;
+}
+.container div{
+
+    border: 5px solid #094416;
+    margin: 5px 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: #094416;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

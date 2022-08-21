@@ -8,8 +8,8 @@ body{
 
 }
 .header{
-    background-color: rgb(35, 153, 51);
-    color:rgb(219, 193, 168);
+    background-color: rgb(46, 80, 46);
+    color:beige;
     display: flex;
     align-items: center;
     font-size: large;
@@ -34,4 +34,36 @@ ul{
 .logo{
 height: 10%;
 width: 10%;
+}
+.bg{
+  background-color: rgba(46, 80, 46, 0.842);
+  color: beige;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  margin-top: 8%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#recipie{
+    color: beige;
+    background-color: rgb(35, 153, 51);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.bg p{
+    margin-top: 0;
+    font-size: 16px;
+}
+#recipie:hover {
+    background-color:#094416;
+    transition: 0.7s;
 }

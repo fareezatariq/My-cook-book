@@ -1,0 +1,86 @@
+.cookbook{
+    color: #094416;
+}
+body{
+    margin: 0;
+    background-color: rgb(193, 228, 161);
+    background-image: url("./images/Bb.jpg");
+    background-size: cover;
+    width:100%;
+    height: fit-content;
+
+}
+.header{
+    background-color: rgb(46, 80, 46);
+    color:beige;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    padding: 5px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}
+.left, .right {
+    display: flex;
+  }
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 15px;
+}
+.logo{
+height: 10%;
+width: 10%;
+}
+.bg{
+  background-color: rgba(46, 80, 46, 0.842);
+  color: beige;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  margin-top: 8%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#recipie{
+    color: beige;
+    background-color: rgb(35, 153, 51);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 7px 10px;
+}
+.bg p{
+    margin-top: 0;
+    font-size: 16px;
+}
+#recipie:hover {
+    background-color:#094416;
+    transition: 0.7s;
+}
+.info img{
+  width: 300px;
+  height:auto;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 0;
+}
+.container div{
+    display: flex;
+    gap: 30px;
+    border: 2px solid #094416;
+    flex-direction: column;
+}

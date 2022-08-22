@@ -1,5 +1,5 @@
 .cookbook{
-    color: #094416;
+    color: rgb(46, 80, 46);
 }
 body{
     margin: 0;
@@ -52,13 +52,13 @@ width: 10%;
 }
 .container div{
 
-    border: 5px solid #094416;
+    border: 5px solid rgb(46, 80, 46);
     margin: 5px 20px;
     padding: 20px;
 }
 h2{
     text-align: center;
-    color: #094416;
+    color: rgb(46, 80, 46);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #accordion{
